@@ -40,7 +40,6 @@ jobs:
       - name: Validar o schema do Prisma
         run: npx prisma validate
 
-   
   test:
     name: Executar testes
     runs-on: ubuntu-latest
